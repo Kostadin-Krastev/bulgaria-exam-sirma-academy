@@ -22,6 +22,21 @@
   border-radius: 16px;
 }
 
+/* header navigation and logo */
+.header-navigation-section,
+.logo-navigation-container,
+.main-menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.logo-navigation-container {
+  width: 1020px;
+  justify-content: space-around;
+  /* padding-left: 170.75px;
+  padding-right: 170.75px; */
+}
+
 /* logo */
 .logo-sirma {
   width: 177.49px;
