@@ -8,3 +8,21 @@
   --background-second-color: #e5e5e5;
   font-family: 'DM Sans', Arial, sans-serif;
 }
+
+/* HEADER SECTION */
+/* big banner */
+.hero-section {
+  background: var(--background-color)
+    url(./images/places-to-visit-in-bulgaria.jpg);
+  width: 1400px;
+  height: 772px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+/* logo */
+.logo-sirma {
+  width: 177.49px;
+}
