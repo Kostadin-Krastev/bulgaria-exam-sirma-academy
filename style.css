@@ -36,12 +36,20 @@ h2,
   font-size: 16px;
 }
 
+/* PAGE/SECTION WIDTH */
+.hero-section,
+.info-section {
+  width: 1400px;
+}
+
 /* CENTRING SECTIONS */
 .hero-section,
 .header-navigation-section,
 .banner-content-section,
 .info-section,
-.info-text-wrapper {
+.info-text-container,
+.info-text-wrapper,
+.info-section-images-container {
   margin: 0 auto;
 }
 
@@ -49,7 +57,6 @@ h2,
 .hero-section {
   background: var(--background-color)
     url(./images/places-to-visit-in-bulgaria.jpg);
-  width: 1400px;
   height: 772px;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +66,8 @@ h2,
 
 .header-navigation-section,
 .logo-navigation-container,
-.main-menu-items {
+.main-menu-items,
+.info-section-images-container {
   display: flex;
   align-items: center;
 }
@@ -136,6 +144,9 @@ h2,
 
 /* MAIN SECTION */
 .info-section {
+  margin-bottom: 80px;
+}
+.info-text-container {
   width: 680px;
 }
 
@@ -145,4 +156,24 @@ h2,
 
 .info-text-wrapper {
   width: 460px;
+  margin-bottom: 40px;
+}
+
+.info-section-images img {
+  width: 430px;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.info-section-images-container {
+  width: 1338px;
+  justify-content: space-between;
+}
+
+.travel-plans-text {
+  width: 775px;
+}
+
+.travel-plans-image-container {
+  margin-bottom: 40px;
 }
