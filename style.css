@@ -10,7 +10,8 @@
   font-size: 18px;
 }
 /* TEXT STYLES */
-h1 {
+h1,
+.our-platform-title {
   font-size: 40px;
 }
 
@@ -18,9 +19,16 @@ h2 {
   font-size: 28px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 h1,
 h2,
-.banner-content-section {
+h3,
+.banner-content-section,
+.our-platform-title,
+.our-platform-text {
   line-height: normal;
 }
 
@@ -32,13 +40,15 @@ h2,
 
 .header-navigation-section,
 .register-button,
-.banner-button {
+.banner-button,
+.our-platform-text {
   font-size: 16px;
 }
 
 /* PAGE/SECTION WIDTH */
 .hero-section,
-.info-section {
+.info-section,
+.our-platform-section {
   width: 1400px;
 }
 
@@ -49,7 +59,8 @@ h2,
 .info-section,
 .info-text-container,
 .info-text-wrapper,
-.info-section-images-container {
+.info-section-images-container,
+.our-platform-section {
   margin: 0 auto;
 }
 
@@ -67,7 +78,8 @@ h2,
 .header-navigation-section,
 .logo-navigation-container,
 .main-menu-items,
-.info-section-images-container {
+.info-section-images-container,
+.our-platform-section {
   display: flex;
   align-items: center;
 }
@@ -143,9 +155,11 @@ h2,
 }
 
 /* MAIN SECTION */
-.info-section {
+.info-section,
+.our-platform-section {
   margin-bottom: 80px;
 }
+
 .info-text-container {
   width: 680px;
 }
@@ -176,4 +190,17 @@ h2,
 
 .travel-plans-image-container {
   margin-bottom: 40px;
+}
+
+.our-platform-text-container {
+  width: 589px;
+}
+
+.our-platform-image {
+  width: 576px;
+  height: 480px;
+}
+
+.our-platform-section {
+  justify-content: space-between;
 }
