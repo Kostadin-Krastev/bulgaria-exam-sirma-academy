@@ -78,6 +78,7 @@
 .banner-content-section {
   width: 608px;
   margin: 0 auto;
+  margin-bottom: 140px;
   text-align: center;
 }
 
@@ -93,4 +94,20 @@
 .big-text-banner {
   font-size: 68px;
   margin-bottom: 24px;
+}
+
+.statistic-section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.numbers {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.numbers-info-text {
+  font-size: 18px;
 }
