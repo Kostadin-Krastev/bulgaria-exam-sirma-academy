@@ -180,6 +180,7 @@ h3,
 .info-section-images img {
   width: 430px;
   height: 400px;
+  object-fit: cover;
   border-radius: 16px;
 }
 
