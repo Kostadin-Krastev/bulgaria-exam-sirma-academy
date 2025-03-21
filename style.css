@@ -189,12 +189,13 @@ h3,
   justify-content: space-between;
 }
 
-.image-text {
+.image-text-container {
   position: absolute;
   bottom: 40px;
   left: 32px;
   width: 120px;
   text-align: left;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
   color: var(--white-color);
 }
 
