@@ -184,7 +184,7 @@ h3,
   border-radius: 16px;
 }
 
-.info-section-images::after {
+.image-shadow::after {
   position: absolute;
   bottom: 0;
   left: 0;
