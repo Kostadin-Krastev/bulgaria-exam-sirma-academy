@@ -224,6 +224,17 @@ h3,
   width: 589px;
 }
 
+/* да оправя маргините - да добавя класове на статиите */
+
+.our-platform-text-container article {
+  margin-bottom: 24px;
+}
+
+.our-platform-text,
+.our-platform-text-container article:last-of-type {
+  margin-bottom: 48px;
+}
+
 .our-platform-image {
   width: 576px;
   height: 480px;
