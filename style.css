@@ -155,6 +155,7 @@ h3,
 }
 
 /* MAIN SECTION */
+/* explore bulgaria section*/
 .info-section,
 .our-platform-section {
   margin-bottom: 80px;
@@ -220,19 +221,29 @@ h3,
   margin-bottom: 40px;
 }
 
+/* our platform section */
 .our-platform-text-container {
   width: 589px;
 }
 
-/* да оправя маргините - да добавя класове на статиите */
+.our-platform-text-wrapper,
+.our-platform-article-wrapper {
+  margin-bottom: 48px;
+}
 
 .our-platform-text-container article {
   margin-bottom: 24px;
 }
 
-.our-platform-text,
-.our-platform-text-container article:last-of-type {
-  margin-bottom: 48px;
+.pointer-icon-wrapper,
+.suitcase-icon-wrapper,
+.direction-icon-wrapper {
+  width: 34px;
+  height: 34px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--background-color);
 }
 
 .our-platform-image {
