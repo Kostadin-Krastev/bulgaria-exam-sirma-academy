@@ -45,6 +45,10 @@ h3,
   font-size: 16px;
 }
 
+.our-platform-section p {
+  color: var(--grey-color);
+}
+
 /* PAGE/SECTION WIDTH */
 .hero-section,
 .info-section,
@@ -158,7 +162,7 @@ h3,
 /* explore bulgaria section*/
 .info-section,
 .our-platform-section {
-  margin-bottom: 80px;
+  margin-bottom: 160px;
 }
 
 .info-text-container {
@@ -222,8 +226,13 @@ h3,
 }
 
 /* our platform section */
+.our-platform-section {
+  justify-content: space-between;
+}
+
 .our-platform-text-container {
   width: 589px;
+  margin-left: 31px;
 }
 
 .our-platform-text-wrapper,
@@ -255,8 +264,7 @@ h3,
 .our-platform-image {
   width: 576px;
   height: 480px;
-}
-
-.our-platform-section {
-  justify-content: space-between;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-right: 31px;
 }
