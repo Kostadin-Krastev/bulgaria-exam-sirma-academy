@@ -11,7 +11,8 @@
 }
 /* TEXT STYLES */
 h1,
-.our-platform-title {
+.our-platform-title,
+.travel-plans-heading {
   font-size: 40px;
 }
 
@@ -45,7 +46,8 @@ h3,
   font-size: 16px;
 }
 
-.our-platform-section p {
+.our-platform-section p,
+.travel-plans-info-text-container p {
   color: var(--grey-color);
 }
 
@@ -161,7 +163,8 @@ h3,
 /* MAIN SECTION */
 /* explore bulgaria section*/
 .info-section,
-.our-platform-section {
+.our-platform-section,
+.travel-plans-section {
   margin-bottom: 160px;
 }
 
@@ -267,4 +270,9 @@ h3,
   object-fit: cover;
   border-radius: 16px;
   margin-right: 31px;
+}
+
+/* travel plans section */
+.travel-plans-heading {
+  margin-bottom: 16px;
 }
