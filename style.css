@@ -33,6 +33,14 @@ h3,
   line-height: normal;
 }
 
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
 .banner-content-section,
 .statistic-section,
 .info-section {
@@ -42,12 +50,14 @@ h3,
 .header-navigation-section,
 .register-button,
 .banner-button,
-.our-platform-text {
+.our-platform-text,
+.price-wrapper p {
   font-size: 16px;
 }
 
 .our-platform-section p,
-.travel-plans-info-text-container p {
+.travel-plans-info-text-container p,
+.price-wrapper p {
   color: var(--grey-color);
 }
 
@@ -275,4 +285,25 @@ h3,
 /* travel plans section */
 .travel-plans-heading {
   margin-bottom: 16px;
+}
+
+.background-color-image-info-container {
+  width: 414px;
+  height: 119px;
+  border-radius: 16px;
+  background-color: var(--white-color);
+}
+
+.info-text-wrapper {
+  margin: 16px;
+  text-align: left;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.rating-score {
+  display: inline-block;
 }
