@@ -288,6 +288,10 @@ h5 {
 }
 
 .background-color-image-info-container {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
   width: 414px;
   height: 119px;
   border-radius: 16px;
@@ -297,6 +301,14 @@ h5 {
 .info-text-wrapper {
   margin: 16px;
   text-align: left;
+}
+
+.price-rating-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 382px;
+  margin: 0 auto;
 }
 
 .price-wrapper {
