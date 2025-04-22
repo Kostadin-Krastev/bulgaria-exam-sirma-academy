@@ -14,7 +14,8 @@
 /* TEXT STYLES */
 h1,
 .our-platform-title,
-.travel-plans-heading {
+.travel-plans-heading,
+.testimonial-heading {
   font-size: 40px;
 }
 
@@ -337,4 +338,11 @@ h5,
   vertical-align: baseline;
   font-weight: bold;
   color: var(--rating-score-color);
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial-heading {
+  width: 720px;
+  margin: 0 auto 40px auto;
+  text-align: center;
 }
