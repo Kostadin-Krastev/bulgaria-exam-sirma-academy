@@ -58,7 +58,9 @@ h5,
 .travel-plans-text,
 .price-wrapper p,
 .testimonial-person-info-wrapper p,
-.learn-more-button {
+.learn-more-button,
+.top-footer-logo-menu-container p,
+.footer-menu-items a {
   font-size: 16px;
 }
 
@@ -73,7 +75,8 @@ h5,
 /* PAGE/SECTION WIDTH */
 .hero-section,
 .info-section,
-.our-platform-section {
+.our-platform-section,
+footer {
   width: 1400px;
 }
 
@@ -85,7 +88,9 @@ h5,
 .info-text-container,
 .info-text-wrapper,
 .info-section-images-container,
-.our-platform-section {
+.our-platform-section,
+.testimonial-section,
+footer {
   margin: 0 auto;
 }
 
@@ -134,7 +139,8 @@ h5,
 .main-menu-items a,
 .login-button,
 .primary-button a,
-.banner-button a {
+.banner-button a,
+.footer-menu-items a {
   text-decoration: none;
   color: var(--white-color);
 }
@@ -165,7 +171,8 @@ h5,
 }
 
 .banner-text-container,
-.banner-button a {
+.banner-button a,
+.top-footer-logo-menu-container p {
   color: var(--white-color);
 }
 
@@ -348,7 +355,6 @@ h5,
 /* TESTIMONIAL SECTION */
 .testimonial-section {
   width: 1248px;
-  margin: 0 auto;
 }
 
 .testimonial-heading {
@@ -430,4 +436,25 @@ h5,
   font-weight: 600;
   text-decoration: none;
   color: var(--black-color);
+}
+
+/* FOOTER SECTION */
+footer {
+  border-radius: 16px;
+  padding: 48px 31px 24px 31px;
+  background-color: var(--black-color);
+}
+
+.footer-sirma-logo,
+.top-footer-logo-menu-container p {
+  margin-bottom: 32px;
+}
+
+.footer-main-menu {
+  width: 389px;
+}
+
+.footer-menu-items {
+  display: flex;
+  justify-content: space-between;
 }
