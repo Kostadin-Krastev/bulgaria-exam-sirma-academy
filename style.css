@@ -60,7 +60,9 @@ h5,
 .testimonial-person-info-wrapper p,
 .secondary-button,
 .top-footer-logo-menu-container p,
-.footer-menu-items a {
+.footer-menu-items a,
+.bottom-footer-section p,
+.bottom-footer-navigation-items a {
   font-size: 16px;
 }
 
@@ -140,7 +142,8 @@ footer {
 .login-button,
 .primary-button a,
 .banner-button a,
-.footer-menu-items a {
+.footer-menu-items a,
+.bottom-footer-navigation-items a {
   text-decoration: none;
   color: var(--white-color);
 }
@@ -173,7 +176,8 @@ footer {
 .banner-text-container,
 .banner-button a,
 .top-footer-logo-menu-container p,
-.subscribe-container h4 {
+.subscribe-container h4,
+.bottom-footer-section p {
   color: var(--white-color);
 }
 
@@ -449,6 +453,7 @@ footer {
 .top-footer-section {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 
 .footer-sirma-logo,
@@ -492,4 +497,21 @@ footer {
 
 .footer-email-input:focus::placeholder {
   color: transparent;
+}
+
+/* Bottom footer */
+.bottom-footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  border-top: 1px solid var(--grey-color);
+}
+
+.bottom-footer-navigation {
+  width: 191px;
+}
+
+.bottom-footer-navigation-items {
+  display: flex;
+  justify-content: space-between;
 }
