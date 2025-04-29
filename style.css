@@ -56,13 +56,15 @@ h5,
 .banner-button,
 .our-platform-text,
 .travel-plans-text,
-.price-wrapper p {
+.price-wrapper p,
+.testimonial-person-info-wrapper p {
   font-size: 16px;
 }
 
 .our-platform-section p,
 .travel-plans-info-text-container p,
-.price-wrapper p {
+.price-wrapper p,
+.testimonial-person-info-wrapper p {
   color: var(--grey-color);
 }
 
@@ -352,12 +354,23 @@ h5,
   text-align: center;
 }
 
+.testimonial-quotes-container {
+  display: flex;
+  gap: 24px;
+}
+
 .testimonial-cart {
   width: 400px;
+  padding: 32px;
+  margin-bottom: 80px;
+  border: 1px solid var(--background-second-color);
+  border-radius: 16px;
 }
 
 .testimonial-quote {
-  margin: 32px 32px 29px 32px;
+  width: 336px;
+  height: 180px;
+  margin-bottom: 29px;
   quotes: '"' '"';
 }
 
@@ -367,4 +380,12 @@ h5,
 
 .testimonial-quote::after {
   content: close-quote;
+}
+
+.testimonial-person-info-wrapper h4 {
+  margin-bottom: 4px;
+}
+
+.testimonial-person-image {
+  margin-bottom: 8px;
 }
